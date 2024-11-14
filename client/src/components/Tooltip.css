@@ -1,0 +1,17 @@
+/* Tooltip.css */
+.tooltip {
+    position: absolute;
+    background-color: white; /* 背景色を白に設定 */
+    color: black; /* 文字色を黒に設定 */
+    padding: 10px;
+    border-radius: 5px; /* 角を丸くする */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 影を追加 */
+    z-index: 1000;
+    transition: opacity 0.3s; /* フェードイン効果 */
+    opacity: 0.9; /* 若干透明に */
+  }
+  
+  .tooltip p {
+    margin: 0; /* マージンをリセット */
+    font-size: 14px; /* フォントサイズ */
+  }

@@ -1,0 +1,6 @@
+# .dockerignore
+node_modules
+build
+*.log
+*.pyc
+__pycache__
